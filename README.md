@@ -3,8 +3,6 @@ PeppersCore Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/pepperscore-project/pepperscore.svg?branch=master)](https://travis-ci.org/pepperscore-project/pepperscore)
 
-https://pepperscore.org
-
 What is PeppersCore?
 ----------------
 
@@ -13,9 +11,6 @@ anyone, anywhere in the world. PeppersCore uses peer-to-peer technology to opera
 with no central authority: managing transactions and issuing money are carried
 out collectively by the network. PeppersCore Core is the name of open source
 software which enables the use of this currency.
-
-For more information, as well as an immediately useable, binary version of
-the PeppersCore Core software, see [https://pepperscore.org](https://pepperscore.org).
 
 License
 -------
@@ -26,26 +21,19 @@ information or see https://opensource.org/licenses/MIT.
 Development Process
 -------------------
 
-The `master` branch is regularly built and tested, but is not guaranteed to be
+The `main` branch is regularly built and tested, but is not guaranteed to be
 completely stable. [Tags](https://github.com/pepperscore-project/pepperscore/tags) are created
 regularly to indicate new official, stable release versions of PeppersCore Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md)
 and useful hints for developers can be found in [doc/developer-notes.md](doc/developer-notes.md).
 
-The developer [mailing list](https://groups.google.com/forum/#!forum/pepperscore-dev)
-should be used to discuss complicated or controversial changes before working
-on a patch set.
-
-Developer IRC can be found on Freenode at #pepperscore-dev.
-
 Testing
 -------
 
 Testing and code review is the bottleneck for development; we get more pull
 requests than we can review and test on short notice. Please be patient and help out by testing
-other people's pull requests, and remember this is a security-critical project where any mistake might cost people
-lots of money.
+other people's pull requests, and remember this is a security-critical project where any mistake might cost people lots of money.
 
 ### Automated Testing
 
